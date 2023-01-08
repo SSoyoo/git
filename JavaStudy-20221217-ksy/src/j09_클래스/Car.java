@@ -13,6 +13,14 @@ public class Car {
 		// 생성자 : 무조건 주소값을 리턴한다.
 		// 생성자는 무조건 클래스와 이름이 동일하다 
 		
+		public Car(String company, String model, String color) {
+			
+			this.company = company;
+			this.model = model;
+			this.color = color;
+		}
+		
+		
 		void showCarInfo() {
 			
 			System.out.println("회사명: " + company);
@@ -20,7 +28,9 @@ public class Car {
 			System.out.println("색상: " + color);
 			System.out.println();
 		
-		}
 		
+		}
+
+	
 		
 }
